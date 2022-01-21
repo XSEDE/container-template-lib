@@ -1,9 +1,22 @@
-# container-template-lib
-A library of container templates to enable reproducible containers for scientific computing
+# Container Template Library (CTL) Project Overview
+The XSEDE Cyberinfrastructure Resource Integration (XCRI) team has developed the Container Template Library (CTL) which spans several repositories and purposes, 
+all focused on containers for scientific computing.  The main goal of the CTL project is to collect a library of templates for scientific computing software containers that can be provided by cluster admins, run directly by users, edited by developers to create new scientific software containers, and used by anyone for learning how to build, develop, deploy, and run containers on XSEDE resources and XSEDE-like campus clusters.
+
+## Project Goals & Products
+This project is currently in-progress, so you can expect updates and changes here until completion.  In the meantime, this list includes both in-progress and completed items:
+
+* A [Library](#Library) of container templates for scientific computing.
+* There are several container templates that focus on reproducible builds by leveraging the Nix package manager features.
+* We are developing robust testing of the containers on a variety of XSEDE systems using INCA to enable sysadmins and users to feel confident using these containers on their systems.
+* We are integrating this work with the [Container Tutorial](https://github.com/XSEDE/Container_Tutorial) we have been providing to create a Learning Toolkit that people from a variety of backgrounds can start with to engage with containers for scientific computing.
+
+## Questions & Contributing
+If you have questions, comments, or suggestions, please feel free to open a new issue or pull request on this repository or send an email to `help@xsede.org` with **XCRI** in the subject line.
 
 ## Docs
 Coming Soon...
 
+# Library
 ## Base Templates
 These currently exist in other repositories:
 - [Docker Nix Base Template](https://github.com/XSEDE/docker-centos-nix-base) - The base Docker container for including the Nix package manager, based off of the original version developed at NixOS.
